@@ -34,7 +34,7 @@ explore: markets {}
 explore: products {}
 
 explore: transactions {
-  label: "Transactions Edher"
+  label: "Transactions Luis"
 
   sql_always_where: ${transactions.sales_amount}>0 AND
                     ${transactions.currency} != "USD\r" AND
